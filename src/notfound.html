@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Social Card</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="Container">
+        <div class="Header">
+            LIST SOCIAL CARD
+        </div>
+        <div class="formGroup">
+            <div class="postItem">
+                <button class="postText">Add new</button>
+            </div>
+            <div class="searchBar">
+                <input class="searchText" placeholder="Search name..."></input>
+                <img src="./images/Search-icon.svg" alt="">
+            </div>
+        </div>
+        <div>
+            <button id="nextButton">Back</button>
+        </div>
+        <div class="notFound">
+            <img src="./images/NotFound-Img.svg" alt="">
+        </div>
+        <div class="notFoundTitle">
+            No Results Found
+        </div>
+        <div class="notFoundSubTitle">No content matched your criteria. Try searching for something else.</div>
+        <script>
+            var nextButton = document.getElementById("nextButton");
+            nextButton.addEventListener("click", function() {
+                window.location.href = "index.html"; 
+            });
+        </script>
+    </div>
+</body>
+</html>

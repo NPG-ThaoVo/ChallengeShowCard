@@ -1,0 +1,55 @@
+.postItem button {
+  width: 119px;
+  margin-left: 737px;
+  border-radius: 10px;
+  background: #064ebc;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  border: none;
+  cursor: pointer;
+}
+.postText {
+  color: #fff;
+  text-align: center;
+  font-family: Segoe UI;
+  font-size: 15px;
+  line-height: normal;
+  padding: 15px 30px;
+}
+
+.formGroup {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 52px;
+}
+.searchBar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.searchBar input {
+  border-radius: 10px;
+  width: 271px;
+  background: #fff;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  border: none;
+  outline: none;
+}
+.searchText {
+  padding: 13px 15px 13px 14px;
+}
+.searchText {
+  color: #dfdfdf;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 102px;
+}
+.searchText::placeholder {
+  color: #dfdfdf;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 102px;
+}
+.searchBar img {
+  position: absolute;
+  margin-left: 266px;
+}

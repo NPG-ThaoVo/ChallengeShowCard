@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Social Card</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="Container">
+        <div class="Header">
+            LIST SOCIAL CARD
+        </div>
+        <div class="formGroup">
+            <div class="postItem">
+                <button class="postText">Add new</button>
+            </div>
+            <div class="searchBar">
+                <input class="searchText" placeholder="Search name..."></input>
+                <img src="../public/images/Search-icon.svg" alt="">
+            </div>
+        </div>
+        <div class="cardsContent">
+            <div class="Card">
+                <div class="userInfo">
+                    <div class="userAvatar"><img src="../public/images/User-PhuNguyen.svg" alt=""></div>
+                    <div class="inFormation">
+                        <div class="userName">Phu Nguyen</div>
+                        <div class="Date">14/08/2023</div>
+                    </div>
+                    <div class="iconGroup">
+                        <img src="../public/images/Update-icon.svg" alt="">
+                        <img src="../public/images/Delete.icon.svg" alt="">
+                    </div>
+                </div>
+                <div class="desScription">
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                </div>
+                <div class="postImage">
+                    <img src="../public/images/PhuNguyen-Img.svg" alt="">
+                </div>
+            </div>
+            <div class="Card">
+                <div class="userInfo">
+                    <div class="userAvatar"><img src="../public/images/User-Varen.svg" alt=""></div>
+                    <div class="inFormation">
+                        <div class="userName">Varen</div>
+                        <div class="Date">14/08/2023</div>
+                    </div>
+                    <div class="iconGroup">
+                        <img src="../public/images/Update-icon.svg" alt="">
+                        <img src="../public/images/Delete.icon.svg" alt="">
+                    </div>
+                </div>
+                <div class="desScription">
+                    Lập một form để tạo mới 1 Social Card , trong card sẽ chứa các thông tin: Avatar, Name, Description, Image
+                </div>
+                <div class="postImage">
+                    <img src="../public/images/Varen-Img.svg" alt="">
+                </div>
+            </div>
+            <div class="Card">
+                <div class="userInfo">
+                    <div class="userAvatar"><img src="../public/images/User-Mio.svg" alt=""></div>
+                    <div class="inFormation">
+                        <div class="userName">Mio</div>
+                        <div class="Date">14/08/2023</div>
+                    </div>
+                    <div class="iconGroup">
+                        <img src="../public/images/Update-icon.svg" alt="">
+                        <img src="../public/images/Delete.icon.svg" alt="">
+                    </div>
+                </div>
+                <div class="desScription">
+                    Next, you select one property. It doesn’t matter which one you choose, yet it’s best to pick one that seems totally unrelated to your challenge.
+                </div>
+                <div class="postImage">
+                    <img src="../public/images/Mio-Img.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="Card">
+            <div class="userInfo">
+                <div class="userAvatar"><img src="../public/images/User-Varen.svg" alt=""></div>
+                <div class="inFormation">
+                    <div class="userName">Varen</div>
+                    <div class="Date">14/08/2023</div>
+                </div>
+                <div class="iconGroup">
+                    <img src="../public/images/Update-icon.svg" alt="">
+                    <img src="../public/images/Delete.icon.svg" alt="">
+                </div>
+            </div>
+            <div class="desScription">
+                Lập một form để tạo mới 1 Social Card , trong card sẽ chứa các thông tin: Avatar, Name, Description, Image
+            </div>
+            <div class="postImage">
+                <img src="../public/images/Varen-Img.svg" alt="">
+            </div>
+        </div>
+        </div>
+        <div>
+            <button id="nextButton">Next</button>
+        </div>
+    
+        <script>
+            var nextButton = document.getElementById("nextButton");
+            nextButton.addEventListener("click", function() {
+                window.location.href = "notfound.html"; 
+            });
+        </script>
+    </div>
+</body>
+</html>

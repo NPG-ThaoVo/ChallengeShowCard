@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import PostItemComponent from './components/PostItemComponent/Index';
+import CardComponent from './components/CardComponent/Index';
+import NotFoundComponent from './components/NotFoundComponent/Index';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+    <div className="Container">
+      <div className="Header">LIST SOCIAL CARD</div>
+        <div className="Content">
+          <PostItemComponent/>
+          <CardComponent/>
+          <NotFoundComponent/>
+          {/* <HomeComponent setActiveTab={setActiveTab} activeTab={activeTab}></HomeComponent>
+          <ActiveComponent setActiveTab={setActiveTab} activeTab={activeTab}></ActiveComponent>
+          <CompletedComponent setActiveTab={setActiveTab} activeTab={activeTab}></CompletedComponent> */}
+        </div>
+      </div>
+  </Router>
   );
 }
 
