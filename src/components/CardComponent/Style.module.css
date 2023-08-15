@@ -1,37 +1,37 @@
-.cardsContent{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 88px;
-  }
-  .Card{
-    width: 310px;
-  }
-  .userInfo{
-    display: flex;
-    margin-bottom: 15px;
-  }
-  .userAvatar{
-    margin-right: 15px;
-  }
-  .inFormation{
-    margin-right: 95px;
-  }
-  .userName{
-    color: #000;
-    font-size: 17px;
-    line-height: 24px; 
-  }
-  .Date{
-    color: #5B7083;
-    font-size: 14px;
-    line-height: 22.5px;
-  }
-  .iconGroup{
-    display: flex;
-    gap: 17px;
-    align-items: start;
-  }
-  .desScription{
-    font-size: 15px;
-    margin-bottom: 15px;
-  }
+.cardsContent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 88px;
+}
+.Card {
+  width: 310px;
+}
+.userInfo {
+  display: flex;
+  margin-bottom: 15px;
+}
+.userAvatar {
+  margin-right: 15px;
+}
+.inFormation {
+  margin-right: 95px;
+}
+.userName {
+  color: #000;
+  font-size: 17px;
+  line-height: 24px;
+}
+.Date {
+  color: #5b7083;
+  font-size: 14px;
+  line-height: 22.5px;
+}
+.iconGroup {
+  display: flex;
+  gap: 17px;
+  align-items: start;
+}
+.desScription {
+  font-size: 15px;
+  margin-bottom: 15px;
+}

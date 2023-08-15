@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Style.module.css";
 
-
 const PostItemComponent = () => {
   return (
     <div className={styles.formGroup}>

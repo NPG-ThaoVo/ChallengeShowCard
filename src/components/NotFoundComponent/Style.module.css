@@ -1,20 +1,19 @@
-.notFound{
-    margin-top: 30px;
-    margin-left: 40%;
-    margin-bottom: 20px;
-  
-  }
-  
-  .notFoundTitle{
-    color: #064EBC;
-    text-align: center;
-    font-size: 25px;
-    line-height: 25px;
-    margin-bottom: 10px;
-  }
-  .notFoundSubTitle{
-    color: #000;
-    text-align: center;
-    font-size: 18px;
-    line-height: 25px; 
-  }
+.notFound {
+  margin-top: 28px;
+  margin-left: 40%;
+  margin-bottom: 20px;
+}
+
+.notFoundTitle {
+  color: #064ebc;
+  text-align: center;
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+.notFoundSubTitle {
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+}
