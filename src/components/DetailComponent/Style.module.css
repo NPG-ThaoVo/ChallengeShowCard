@@ -1,0 +1,108 @@
+.Content{
+    width: 1160px;
+    margin: 0 auto;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.Title{
+    margin-top: 50px;
+    margin-bottom: 41px;
+    text-align: center;
+    font: normal normal bold 35px/47px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.userInfo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.userAvatar img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.userName{
+    font: normal normal 600 18px/24px Segoe UI;
+}
+.Date{
+    font: normal normal normal 15px/20px Segoe UI;
+}
+.Descript{
+    font: normal normal normal 15px/20px Segoe UI;
+    margin-bottom: 20px;
+}
+.Image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 31px;
+}
+.Follow{
+    display: flex;
+    gap: 25px;
+}
+.Heart,.Meseges{
+    display: flex;
+    gap: 5px;
+}
+.Count{
+    font: normal normal normal 15px/20px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.Line{
+    margin-top: 30px;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 20px;
+}
+.Comments{
+    margin-bottom: 15px;
+}
+.commentDate{
+    font: normal normal normal 15px/20px Segoe UI;
+    letter-spacing: 0px;
+    color: #5B7083;
+}
+.commentContent{
+    font: normal normal normal 15px/20px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.formTitle{
+    font: normal normal 600 18px/24px Segoe UI;
+    margin-left: 143px;
+    margin-bottom: 15px;
+}
+.formContent{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 161px;
+}
+.formContent input{ 
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    outline: none;
+}
+.formText{
+    padding: 20px 690px 113px 20px;
+}
+.formText::placeholder{
+    font: normal normal normal 13px/17px Segoe UI;
+    color: #D9D9D9;
+}
+.formContent button{
+    position: absolute;
+    margin: 87px 20px 20px -96px;
+    width: 76px;
+    height: 43px;
+    background: #064EBC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    border: none;
+    font: normal normal bold 13px/17px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
