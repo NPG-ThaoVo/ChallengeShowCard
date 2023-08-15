@@ -5,6 +5,7 @@ import PostItemComponent from "./components/PostItemComponent/Index";
 import CardComponent from "./components/CardComponent/Index";
 import NotFoundComponent from "./components/NotFoundComponent/Index";
 import ModalAddComponent from "./components/ModalComponent/Index";
+import DetailComponent from "./components/DetailComponent/Index";
 
 function App() {
   return (
@@ -14,14 +15,16 @@ function App() {
         <div className="Content">
           <div className="horizontal-container">
             <PostItemComponent />
-            <Link to="/card">CardComponent</Link>
-            <Link to="/not-found">NotFoundComponent</Link>
-            <Link to="/modal">Modal</Link>
+            <Link to="/card">CardComponent-----</Link>
+            <Link to="/not-found">NotFoundComponent------</Link>
+            <Link to="/modal">Modal-----</Link>
+            <Link to="/detail">Detail</Link>
           </div>
           <Routes>
             <Route path="/card" element={<CardComponent />} />
             <Route path="/not-found" element={<NotFoundComponent />} />
             <Route path="/modal" element={<ModalAddComponent />} />
+            <Route path="/detail" element={<DetailComponent />} />
           </Routes>
         </div>
       </div>

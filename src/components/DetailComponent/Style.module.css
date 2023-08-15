@@ -65,6 +65,9 @@
     letter-spacing: 0px;
     color: #5B7083;
 }
+.formComment{
+    margin-bottom: 161px;
+}
 .commentContent{
     font: normal normal normal 15px/20px Segoe UI;
     letter-spacing: 0px;
@@ -78,7 +81,7 @@
 .formContent{
     display: flex;
     justify-content: center;
-    margin-bottom: 161px;
+    
 }
 .formContent input{ 
     background: #FFFFFF 0% 0% no-repeat padding-box;

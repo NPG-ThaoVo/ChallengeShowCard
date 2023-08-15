@@ -24,9 +24,8 @@ body {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-.horizontal-container {
-  display: flex;
-  gap: 10px;
+.Link{
+  margin-right: 10px;
 }
 .hidden-links {
   display: none;
