@@ -1,0 +1,91 @@
+.modalContent {
+  padding: 25px 45px;
+}
+
+.Modal {
+  width: 514px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #d2cbcb;
+  border-radius: 10px;
+  opacity: 1;
+  margin: 0 auto;
+}
+
+.modalCard {
+  display: flex;
+  gap: 15px;
+}
+.modalTitle {
+  text-align: center;
+  font: normal normal bold 20px/27px Segoe UI;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.modalAvatar {
+  display: flex;
+  margin-bottom: 30px;
+}
+.modalName {
+  display: flex;
+  margin-bottom: 35px;
+}
+.modalDes {
+  display: flex;
+  margin-bottom: 30px;
+}
+.Title {
+  font: normal normal normal 16px/21px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.Icon {
+  color: #f3115e;
+}
+.uploadTitle {
+  margin-left: 11px;
+}
+.formUpload {
+  display: flex;
+  gap: 11px;
+  margin-bottom: 20px;
+}
+.formName input,
+.formDes input {
+  padding: 0;
+  width: 320px;
+  height: 33px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  outline: none;
+}
+.Line {
+  border: 1px solid #d9d9d9;
+  margin-bottom: 20px;
+}
+.btnSave {
+  background: #064ebc 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 10px;
+  width: 76px;
+  cursor: pointer;
+}
+.modalButton {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+}
+.btnTitle {
+  font: normal normal bold 13px/17px Segoe UI;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding: 13px 24px;
+}
+.btnCancel {
+  background: #d9d9d9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 10px;
+  cursor: pointer;
+}

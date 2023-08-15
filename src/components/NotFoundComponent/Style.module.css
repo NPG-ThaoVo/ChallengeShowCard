@@ -1,6 +1,7 @@
 .notFound {
   margin-top: 28px;
-  margin-left: 40%;
+  display: flex;
+  justify-content: center;
   margin-bottom: 20px;
 }
 

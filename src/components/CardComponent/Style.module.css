@@ -6,15 +6,22 @@
 .Card {
   width: 310px;
 }
-.userInfo {
+.userBar {
   display: flex;
   margin-bottom: 15px;
+  justify-content: space-between;
+}
+.userInfor{
+  display: flex;
 }
 .userAvatar {
   margin-right: 15px;
 }
 .inFormation {
-  margin-right: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
 }
 .userName {
   color: #000;
@@ -30,6 +37,7 @@
   display: flex;
   gap: 17px;
   align-items: start;
+  cursor: pointer;
 }
 .desScription {
   font-size: 15px;
