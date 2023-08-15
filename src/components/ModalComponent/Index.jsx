@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Style.module.css";
 
-function ModalAddComponent() {
+function ModalAddComponent(onClose) {
   return (
     <div className={styles.Modal}>
       <div className={styles.modalContent}>
@@ -40,18 +40,18 @@ function ModalAddComponent() {
           <button class={styles.btnSave}>
             <div class={styles.btnTitle}>Delete</div>
             </button>
-            <button class={styles.btnCancel}>
-              <div class={styles.btnTitle}>Cancel</div>
-            </button>
+            <button className={styles.btnCancel} onClick={onClose}>
+            <div className={styles.btnTitle}>Cancel</div>
+          </button>
         </div>
       </div>
     </div>
   );
 }
 
-export default ModalAddComponent;
 
-// function ModalDeleteComponent() {
+
+// function ModalDeleteComponent(onClose) {
 //   return (
 //     <div className={styles.Modal}>
 //       <div className={styles.modalContent}>
@@ -66,8 +66,8 @@ export default ModalAddComponent;
 //           <button class={styles.btnDelete}>
 //             <div class={styles.btnTitle}>Delete</div>
 //           </button>
-//           <button class={styles.btnCancel}>
-//             <div class={styles.btnTitle}>Cancel</div>
+//           <button className={styles.btnCancel} onClick={onClose}>
+//             <div className={styles.btnTitle}>Cancel</div>
 //           </button>
 //         </div>
 //       </div>
@@ -75,4 +75,4 @@ export default ModalAddComponent;
 //   );
 // }
 
-// export default ModalDeleteComponent;
+export default ModalAddComponent;

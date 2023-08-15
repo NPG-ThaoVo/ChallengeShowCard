@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Style.module.css";
-
+import ModalAddComponent from "../ModalComponent/Index";
+import ModalDeleteComponent from "../ModalComponent/Index";
 const SocialCard = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+    const handleUpdateClick = () => {
+        setIsModalOpen(true);
+    };
+    const [showDeleteModal, setShowDeleteModal] = useState(false);
+    const handleDeleteClick = () => {
+      setShowDeleteModal(true);
+  };
+
+  const handleCloseDeleteModal = () => {
+      setShowDeleteModal(false);
+  };
   return (
     <div className={styles.cardsContent}>
       <div className={styles.Card}>
@@ -16,8 +29,8 @@ const SocialCard = () => {
             </div>
           </div>
           <div className={styles.iconGroup}>
-            <img src="./images/Update-icon.svg" alt="" />
-            <img src="./images/Delete.icon.svg" alt="" />
+            <img src="./images/Update-icon.svg" alt="" onClick={handleUpdateClick}/>
+            <img src="./images/Delete.icon.svg" alt="" onClick={handleDeleteClick}/>
           </div>
         </div>
         <div className={styles.desScription}>
@@ -96,6 +109,8 @@ const SocialCard = () => {
                     <img src="./images/PhuNguyen-Img.svg" alt="" />
                 </div>
         </div> */}
+        {isModalOpen && <ModalAddComponent onClose={() => setIsModalOpen(false)} />}
+        {showDeleteModal && <ModalDeleteComponent onClose={handleCloseDeleteModal} />}
     </div>
   );
 };

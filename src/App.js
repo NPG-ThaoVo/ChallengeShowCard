@@ -17,13 +17,11 @@ function App() {
             <PostItemComponent />
             <Link to="/card">CardComponent-----</Link>
             <Link to="/not-found">NotFoundComponent------</Link>
-            <Link to="/modal">Modal-----</Link>
             <Link to="/detail">Detail</Link>
           </div>
           <Routes>
             <Route path="/card" element={<CardComponent />} />
             <Route path="/not-found" element={<NotFoundComponent />} />
-            <Route path="/modal" element={<ModalAddComponent />} />
             <Route path="/detail" element={<DetailComponent />} />
           </Routes>
         </div>
