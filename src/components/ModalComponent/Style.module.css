@@ -18,7 +18,7 @@
 }
 .modalTitle {
   text-align: center;
-  font: normal normal bold 20px/27px Segoe UI;
+  font: normal normal bold 20px/27px "Segoe UI", sans-serif;
   color: #000000;
   margin-bottom: 40px;
 }
@@ -35,7 +35,7 @@
   margin-bottom: 30px;
 }
 .Title {
-  font: normal normal normal 16px/21px Segoe UI;
+  font: normal normal normal 16px/21px "Segoe UI", sans-serif;
   letter-spacing: 0px;
   color: #000000;
 }
@@ -77,15 +77,39 @@
   gap: 20px;
   justify-content: end;
 }
+.modalButton button {
+    border: none;
+  }
 .btnTitle {
-  font: normal normal bold 13px/17px Segoe UI;
+  font: normal normal bold 13px/17px "Segoe UI", sans-serif;
   letter-spacing: 0px;
   color: #ffffff;
-  padding: 13px 24px;
+  padding: 13px 18px;
 }
 .btnCancel {
   background: #d9d9d9 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.modalText{
+    margin-bottom: 30px;
+    text-align: center;
+    font: normal normal bold 20px/27px "Segoe UI", sans-serif;
+    color: #000000;
+}
+.modalDelete{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.subTitle{
+    text-align: center;
+    font: normal normal normal 16px/21px"Segoe UI", sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.Line{
+    margin-top: 20px;
 }

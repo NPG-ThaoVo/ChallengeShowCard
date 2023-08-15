@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import PostItemComponent from "./components/PostItemComponent/Index";
 import CardComponent from "./components/CardComponent/Index";
 import NotFoundComponent from "./components/NotFoundComponent/Index";
-import ModalComponent from "./components/ModalComponent/Index";
+import ModalAddComponent from "./components/ModalComponent/Index";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
           <Routes>
             <Route path="/card" element={<CardComponent />} />
             <Route path="/not-found" element={<NotFoundComponent />} />
-            <Route path="/modal" element={<ModalComponent />} />
+            <Route path="/modal" element={<ModalAddComponent />} />
           </Routes>
         </div>
       </div>
