@@ -24,13 +24,13 @@ function ModalAddComponent(onClose) {
           </div>
           <div className={styles.formGroups}>
             <div className={styles.formUpload}>
-              <div><img src="./images/Upload-icon.svg" alt="" /></div>
+              <div><img src="./images/Upload-Icon.svg" alt="" /></div>
               <div className={styles.uploadImg}>Upload image</div>
             </div>
             <div className={styles.formName}><input type="text" /></div>
             <div className={styles.formDes}><input type="text" /></div>
             <div className={styles.formUpload}>
-              <div><img src="./images/Upload-icon.svg" alt="" /></div>
+              <div><img src="./images/Upload-Icon.svg" alt="" /></div>
               <div className={styles.uploadImg}>Upload image</div>
             </div>
           </div>

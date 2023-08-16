@@ -2,8 +2,6 @@ import styles from "./Style.module.css";
 import React, { useState } from "react";
 import ModalAddComponent from "../ModalAddComponent/Index";
 
-
-
 const PostItemComponent = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -13,11 +11,13 @@ const PostItemComponent = () => {
   return (
     <div className={styles.formGroup}>
       <div className={styles.postItem}>
-        <button  onClick={handleUpdateClick} className={styles.postText}>Add new </button>
+        <button onClick={handleUpdateClick} className={styles.postText}>
+          Add new{" "}
+        </button>
       </div>
       <div className={styles.searchBar}>
         <input className={styles.searchText} placeholder="Search name..." />
-        <img src="images/Search-icon.svg" alt="" />
+        <img src="images/Search-Icon.svg" alt="" />
       </div>
       {isModalOpen && (
         <ModalAddComponent onClose={() => setIsModalOpen(false)} />
@@ -27,7 +27,6 @@ const PostItemComponent = () => {
 };
 
 export default PostItemComponent;
-
 
 // const PostItemComponent = () => {
 //   const [showForm, setShowForm] = useState(false);

@@ -32,12 +32,12 @@ const SocialCard = () => {
           </div>
           <div className={styles.iconGroup}>
             <img
-              src="./images/Update-icon.svg"
+              src="./images/Update-Icon.svg"
               alt=""
               onClick={handleUpdateClick}
             />
             <img
-              src="./images/Delete.icon.svg"
+              src="./images/Delete.Icon.svg"
               alt=""
               onClick={handleDeleteClick}
             />
@@ -64,12 +64,12 @@ const SocialCard = () => {
           </div>
           <div className={styles.iconGroup}>
             <img
-              src="./images/Update-icon.svg"
+              src="./images/Update-Icon.svg"
               alt=""
               onClick={handleUpdateClick}
             />
             <img
-              src="./images/Delete.icon.svg"
+              src="./images/Delete.Icon.svg"
               alt=""
               onClick={handleDeleteClick}
             />
@@ -96,12 +96,12 @@ const SocialCard = () => {
           </div>
           <div className={styles.iconGroup}>
             <img
-              src="./images/Update-icon.svg"
+              src="./images/Update-Icon.svg"
               alt=""
               onClick={handleUpdateClick}
             />
             <img
-              src="./images/Delete.icon.svg"
+              src="./images/Delete.Icon.svg"
               alt=""
               onClick={handleDeleteClick}
             />
