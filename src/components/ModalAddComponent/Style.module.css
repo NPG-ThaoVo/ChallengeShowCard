@@ -66,7 +66,8 @@
   margin-bottom: 20px;
   margin-top: 20px;
 }
-.btnSave ,.btnDelete{
+.btnSave,
+.btnDelete {
   background: #064ebc 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 10px;
@@ -79,8 +80,8 @@
   justify-content: end;
 }
 .modalButton button {
-    border: none;
-  }
+  border: none;
+}
 .btnTitle {
   font: normal normal bold 13px/17px "Segoe UI", sans-serif;
   letter-spacing: 0px;
@@ -94,20 +95,20 @@
   cursor: pointer;
 }
 
-.modalText{
-    margin-bottom: 30px;
-    text-align: center;
-    font: normal normal bold 20px/27px "Segoe UI", sans-serif;
-    color: #000000;
+.modalText {
+  margin-bottom: 30px;
+  text-align: center;
+  font: normal normal bold 20px/27px "Segoe UI", sans-serif;
+  color: #000000;
 }
-.modalDelete{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 16px;
+.modalDelete {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
 }
-.subTitle{
-    text-align: center;
-    font: normal normal normal 16px/21px"Segoe UI", sans-serif;
-    letter-spacing: 0px;
-    color: #000000;
+.subTitle {
+  text-align: center;
+  font: normal normal normal 16px/21px "Segoe UI", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
 }

@@ -7,7 +7,7 @@ const SocialCardDetail = () => {
             <div className={styles.Title}>SOCIAL CARD DETAIL</div>
             <div className={styles.userInfo}>
                 <div className={styles.userAvatar}>
-                    <img src="https://images.pexels.com/photos/675920/pexels-photo-675920.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/008/974/656/small/cute-kid-girl-holding-bubble-milk-tea-hand-drawn-cartoon-character-illustration-vector.jpg" alt="" />
                 </div>
                 <div className={styles.userText}>
                     <div className={styles.userName}>Binance</div>
@@ -20,11 +20,11 @@ const SocialCardDetail = () => {
             </div>
             <div className={styles.Follow}>
                 <div className={styles.Heart}>
-                    <img src="./images/Heart-icon.png" alt="" />
+                    <img src="./images/Heart-icon.svg" alt="" />
                     <div className={styles.Count}>2</div>
                 </div>
                 <div className={styles.Meseges}>
-                    <img src="./images/Message-icon.png" alt="" />
+                    <img src="./images/Message-icon.svg" alt="" />
                     <div className={styles.Count}>2</div>
                 </div>
             </div>

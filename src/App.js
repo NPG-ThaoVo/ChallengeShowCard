@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import PostItemComponent from "./components/PostItemComponent/Index";
 import CardComponent from "./components/CardComponent/Index";
 import NotFoundComponent from "./components/NotFoundComponent/Index";
-import ModalAddComponent from "./components/ModalComponent/Index";
+import ModalAddComponent from "./components/ModalAddComponent/Index";
 import DetailComponent from "./components/DetailComponent/Index";
 
 function App() {
