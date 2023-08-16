@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import styles from "./Style.module.css";
-import ModalAddComponent from "../ModalAddComponent/Index";
-import ModalDeleteComponent from "../ModalDeleteComponent/Index";
+import styles from "./style.module.css";
+import ModalAdd from "../ModalAdd";
+import ModalDelete from "../ModalDelete";
+
 const SocialCard = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [showDeleteModal, setShowDeleteModal] = useState(false);
@@ -116,12 +117,8 @@ const SocialCard = () => {
           <img src="./images/Mio-Img.svg" alt="" />
         </div>
       </div>
-      {isModalOpen && (
-        <ModalAddComponent onClose={() => setIsModalOpen(false)} />
-      )}
-      {showDeleteModal && (
-        <ModalDeleteComponent onClose={handleCloseDeleteModal} />
-      )}
+      {isModalOpen && <ModalAdd onClose={() => setIsModalOpen(false)} />}
+      {showDeleteModal && <ModalDelete onClose={handleCloseDeleteModal} />}
     </div>
   );
 };

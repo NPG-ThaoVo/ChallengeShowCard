@@ -1,6 +1,6 @@
-import styles from "./Style.module.css";
+import styles from "./style.module.css";
 import React, { useState } from "react";
-import ModalAddComponent from "../ModalAddComponent/Index";
+import ModalAdd from "../ModalAdd";
 
 const PostItemComponent = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -19,9 +19,7 @@ const PostItemComponent = () => {
         <input className={styles.searchText} placeholder="Search name..." />
         <img src="images/Search-Icon.svg" alt="" />
       </div>
-      {isModalOpen && (
-        <ModalAddComponent onClose={() => setIsModalOpen(false)} />
-      )}
+      {isModalOpen && <ModalAdd onClose={() => setIsModalOpen(false)} />}
     </div>
   );
 };

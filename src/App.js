@@ -1,10 +1,10 @@
 import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import PostItemComponent from "./components/PostItemComponent/Index";
-import CardComponent from "./components/CardComponent/Index";
-import NotFoundComponent from "./components/NotFoundComponent/Index";
-import DetailComponent from "./components/DetailComponent/Index";
+import PostItem from "./components/PostItem";
+import Card from "./components/Card";
+import NotFound from "./components/NotFound";
+import Detail from "./components/Detail";
 
 function App() {
   return (
@@ -12,12 +12,12 @@ function App() {
       <div className="Container">
         <div className="Header">LIST SOCIAL CARD</div>
         <div className="Content">
-          <PostItemComponent />
+          <PostItem />
           <Routes>
-            <Route path="/" element={<CardComponent />} />
-            <Route path="/card" element={<CardComponent />} />
-            <Route path="/not-found" element={<NotFoundComponent />} />
-            <Route path="/detail" element={<DetailComponent />} />
+            <Route path="/" element={<Card />} />
+            <Route path="/card" element={<Card />} />
+            <Route path="/not-found" element={<NotFound />} />
+            <Route path="/detail" element={<Detail />} />
           </Routes>
         </div>
       </div>
